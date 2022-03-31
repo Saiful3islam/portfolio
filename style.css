@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+.first{
+    display: flex;
+}
+
+.second{
+    display: flex;
+}
+
+.half-width{
+    width: 50%;
+    height: auto;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.half-width p{
+    margin-bottom: 30px;
+}
+
+h1{
+    font-size: 60px;
+    text-transform: capitalize;
+}
+
+h1 span{
+    color: #ff6b81;
+}
+
+img{
+    width: 80%;
+}
+.hire-me-btn{
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(tomato, #ff9100);
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    
+}
